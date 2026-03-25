@@ -1,39 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        input, textarea, button {
-            width: 500px;
-            border: 0.5px solid lightgray;
-            padding: 15px;
-        }
-        
-        body {
-            background-color: lightgray;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
-</head>
-<body >
-    <header>
-        <nav></nav>
-    </header>
-    <main>
-        <form action="">
-            <label for="name">name</label>
-            <input type="text" name="name" id="name">
-            <label for="subject">subject</label>
-            <input type="text" name="subject" id="subject">
-            <label for="email">email</label>
-            <input type="email" name="email" id="email">
-            <label for="message">message</label>
-            <textarea name="message" id="message"></textarea>
-            <input type="button" value="submit">
-        </form>
-    </main>
-    <footer></footer>
-</body>
-</html>
+import geopandas as gpd
+from shapely.ops import unary_union
+import networkx as nx
+import pandas as pd
+from datetime import datetime
+
+# format date
+format_date = "%Y-%m-%d-%H-%M"
+date = datetime.now()
+date = date.strftime(format_date)
+
+# Charger shapefile
+gdf = gpd.read_file(r"C:\Users\L14\Downloads\fusion_Riverain\fusion_Riverain.shp")
+gdf["geometry"] = gdf.buffer(0)
+
+# Nettoyage du champ nom
+gdf["label_rive"] = (
+    gdf["label_rive"]
+    .str.strip()
+    .str.upper()
+)
+
+resultats_fusion = []
+donnees_avant_fusion = []
+donnees_non_fusionnees = []
+
+# Traitement par groupe
+for nom, group in gdf.groupby("label_rive"):
+
+    group = group.reset_index(drop=True)
+
+    sindex = group.sindex
+    G = nx.Graph()
+
+    for i, geom in enumerate(group.geometry):
+
+        G.add_node(i)
+
+        candidats = list(sindex.intersection(geom.bounds))
+
+        for j in candidats:
+            if i < j:
+                if geom.intersects(group.geometry.iloc[j]):
+                    G.add_edge(i, j)
+
+    # composantes connexes
+    for component in nx.connected_components(G):
+
+        subset = group.loc[list(component)].copy()
+
+        # CAS FUSION
+        if len(subset) > 1:
+
+            fusion_geom = unary_union(subset.geometry).buffer(0)
+            if fusion_geom.geom_type == "MultiPolygon":
+                fusion_geom = max(fusion_geom.geoms, key=lambda g: g.area)
+
+            # on garde les attributs du premier polygone
+            attrs = subset.iloc[0].drop("geometry").to_dict()
+
+            id_riverain_fusion = attrs["id_riverai"]
+
+            attrs["geometry"] = fusion_geom
+
+            resultats_fusion.append(attrs)
+
+            # ajouter champ pour tracer la fusion
+            subset["id_riv_fus"] = id_riverain_fusion
+
+            donnees_avant_fusion.append(subset)
+
+        # CAS NON FUSIONNE
+        else:
+
+            donnees_non_fusionnees.append(subset)
+
+# Création GeoDataFrames
+gdf_fusion = gpd.GeoDataFrame(resultats_fusion, crs=gdf.crs)
+gdf_fusion = gdf_fusion.explode(index_parts=False)
+
+if donnees_avant_fusion:
+    gdf_avant_fusion = gpd.GeoDataFrame(
+        pd.concat(donnees_avant_fusion, ignore_index=True),
+        crs=gdf.crs
+    )
+else:
+    gdf_avant_fusion = gpd.GeoDataFrame(columns=gdf.columns, crs=gdf.crs)
+
+if donnees_non_fusionnees:
+    gdf_non_fusionnees = gpd.GeoDataFrame(
+        pd.concat(donnees_non_fusionnees, ignore_index=True),
+        crs=gdf.crs
+    )
+else:
+    gdf_non_fusionnees = gpd.GeoDataFrame(columns=gdf.columns, crs=gdf.crs)
+
+# Sauvegarde
+gdf_avant_fusion.to_file(fr"C:\Users\L14\Downloads\All_SHP_tonkpi_03-03-26\voisins_avant_fusion_{date}.shp")
+gdf_fusion.to_file(fr"C:\Users\L14\Downloads\All_SHP_tonkpi_03-03-26\voisins_fusionnes_{date}.shp")
+gdf_non_fusionnees.to_file(fr"C:\Users\L14\Downloads\All_SHP_tonkpi_03-03-26\voisins_non_fusionnes_{date}.shp")
+

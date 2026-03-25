@@ -1,0 +1,65 @@
+file,request,error,timestamp
+CF-494-002-000010-PPDef.pdf,CF-494-002-000010-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000010/documents,2026-03-19T20:04:23.152570
+CF-494-002-000011-PPDef.pdf,CF-494-002-000011-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000011/documents,2026-03-19T20:04:24.353620
+CF-494-002-000012-PPDef.pdf,CF-494-002-000012-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000012/documents,2026-03-19T20:04:26.719422
+CF-494-002-000013-PPDef.pdf,CF-494-002-000013-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000013/documents,2026-03-19T20:04:29.182360
+CF-494-002-000014-PPDef.pdf,CF-494-002-000014-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000014/documents,2026-03-19T20:04:31.813411
+CF-494-002-000021-PPDef.pdf,CF-494-002-000021-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000021/documents,2026-03-19T20:04:32.862104
+CF-494-002-000022-PPDef.pdf,CF-494-002-000022-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000022/documents,2026-03-19T20:04:34.041697
+CF-494-002-000023-PPDef.pdf,CF-494-002-000023-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000023/documents,2026-03-19T20:04:35.117417
+CF-494-002-000024-PPDef.pdf,CF-494-002-000024-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000024/documents,2026-03-19T20:04:36.211253
+CF-494-002-000025-PPDef.pdf,CF-494-002-000025-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000025/documents,2026-03-19T20:04:37.305542
+CF-494-002-000027-PPDef.pdf,CF-494-002-000027-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000027/documents,2026-03-19T20:04:38.371718
+CF-494-002-000028-PPDef.pdf,CF-494-002-000028-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000028/documents,2026-03-19T20:04:39.476155
+CF-494-002-000031-PPDef.pdf,CF-494-002-000031-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000031/documents,2026-03-19T20:04:40.687224
+CF-494-002-000032-PPDef.pdf,CF-494-002-000032-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000032/documents,2026-03-19T20:04:41.773543
+CF-494-002-000033-PPDef.pdf,CF-494-002-000033-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000033/documents,2026-03-19T20:04:42.847614
+CF-494-002-000037-PPDef.pdf,CF-494-002-000037-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000037/documents,2026-03-19T20:04:43.890374
+CF-494-002-000038-PPDef.pdf,CF-494-002-000038-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000038/documents,2026-03-19T20:04:45.007535
+CF-494-002-000040-PPDef.pdf,CF-494-002-000040-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000040/documents,2026-03-19T20:04:46.169226
+CF-494-002-000041-PPDef.pdf,CF-494-002-000041-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000041/documents,2026-03-19T20:04:47.377839
+CF-494-002-000042-PPDef.pdf,CF-494-002-000042-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000042/documents,2026-03-19T20:04:48.584721
+CF-494-002-000043-PPDef.pdf,CF-494-002-000043-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000043/documents,2026-03-19T20:04:49.623307
+CF-494-002-000044-PPDef.pdf,CF-494-002-000044-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000044/documents,2026-03-19T20:04:50.673280
+CF-494-002-000046-PPDef.pdf,CF-494-002-000046-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000046/documents,2026-03-19T20:04:51.715483
+CF-494-002-000047-PPDef.pdf,CF-494-002-000047-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000047/documents,2026-03-19T20:04:52.970743
+CF-494-002-000050-PPDef.pdf,CF-494-002-000050-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000050/documents,2026-03-19T20:04:54.162010
+CF-494-002-000052-PPDef.pdf,CF-494-002-000052-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000052/documents,2026-03-19T20:04:55.270900
+CF-494-002-000062-PPDef.pdf,CF-494-002-000062-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-002-000062/documents,2026-03-19T20:04:56.474991
+CF-494-004-000006-PPDef.pdf,CF-494-004-000006-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-004-000006/documents,2026-03-19T20:05:09.565602
+CF-494-004-000044-PPDef.pdf,CF-494-004-000044-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-004-000044/documents,2026-03-19T20:05:10.672758
+CF-494-004-000045-PPDef.pdf,CF-494-004-000045-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-004-000045/documents,2026-03-19T20:05:11.777727
+CF-494-004-000050-PPDef.pdf,CF-494-004-000050-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-004-000050/documents,2026-03-19T20:05:12.895982
+CF-494-004-000052-PPDef.pdf,CF-494-004-000052-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-004-000052/documents,2026-03-19T20:05:16.583728
+CF-494-004-000056-PPDef.pdf,CF-494-004-000056-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-004-000056/documents,2026-03-19T20:05:17.707565
+CF-494-005-000023-PPDef.pdf,CF-494-005-000023-PPDef,"('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))",2026-03-19T20:06:12.227265
+CF-494-005-000033-PPDef.pdf,CF-494-005-000033-PPDef,400 Client Error: Bad Request for url: https://collect.prod.digifor.ci/api/v1/bo/certificates/494-005-000033/documents,2026-03-19T21:23:00.562632
+CF-494-007-000076-PPDef.pdf,CF-494-007-000076-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:25:49.703839
+CF-494-007-000078-PPDef.pdf,CF-494-007-000078-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:26:21.535166
+CF-494-007-000079-PPDef.pdf,CF-494-007-000079-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:26:54.065357
+CF-494-007-000080-PPDef.pdf,CF-494-007-000080-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:27:26.351930
+CF-494-007-000082-PPDef.pdf,CF-494-007-000082-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:27:58.400599
+CF-494-007-000083-PPDef.pdf,CF-494-007-000083-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:28:30.076958
+CF-494-007-000084-PPDef.pdf,CF-494-007-000084-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:29:01.896847
+CF-494-010-000008-PPDef.pdf,CF-494-010-000008-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:29:33.638512
+CF-494-010-000015-PPDef.pdf,CF-494-010-000015-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:30:05.283848
+CF-494-010-000031-PPDef.pdf,CF-494-010-000031-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:30:37.186752
+CF-494-010-000036-PPDef.pdf,CF-494-010-000036-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:31:09.438000
+CF-494-010-000037-PPDef.pdf,CF-494-010-000037-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:31:41.554864
+CF-494-010-000040-PPDef.pdf,CF-494-010-000040-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:32:14.411791
+CF-494-010-000043-PPDef.pdf,CF-494-010-000043-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:32:46.882320
+CF-494-010-000044-PPDef.pdf,CF-494-010-000044-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:33:19.238107
+CF-494-010-000045-PPDef.pdf,CF-494-010-000045-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:33:51.879362
+CF-494-010-000046-PPDef.pdf,CF-494-010-000046-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:34:30.400410
+CF-494-010-000047-PPDef.pdf,CF-494-010-000047-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:35:02.148181
+CF-494-010-000055-PPDef.pdf,CF-494-010-000055-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:35:34.407601
+CF-494-010-000064-PPDef.pdf,CF-494-010-000064-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:36:06.768625
+CF-494-010-000065-PPDef.pdf,CF-494-010-000065-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:36:37.403552
+CF-494-010-000066-PPDef.pdf,CF-494-010-000066-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:37:07.915986
+CF-494-012-000003-PPDef.pdf,CF-494-012-000003-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:37:38.728313
+CF-494-012-000005-PPDef.pdf,CF-494-012-000005-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:38:09.207944
+CF-494-012-000007-PPDef.pdf,CF-494-012-000007-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:38:39.822629
+CF-494-012-000008-PPDef.pdf,CF-494-012-000008-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:39:10.292136
+CF-494-012-000010-PPDef.pdf,CF-494-012-000010-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:39:40.867017
+CF-494-012-000013-PPDef.pdf,CF-494-012-000013-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:40:11.389402
+CF-494-012-000015-PPDef.pdf,CF-494-012-000015-PPDef,"HTTPSConnectionPool(host='collect.prod.digifor.ci', port=443): Read timed out. (read timeout=30)",2026-03-19T21:40:42.252541
